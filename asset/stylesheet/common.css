@@ -13,9 +13,7 @@ ul li { list-style: none; }
 
 #big_title { margin: 0 auto; text-align: left;  width: 980px; height:45px; line-height:45px;}
 #header {height:45px; background-color:#f0f0f0; overflow: hidden; }
-	#header a { display: inline-block; margin: 7px 0 0 5px; padding: 0 20px; text-decoration: none; line-height: 32px; height: 32px; background: #fff; border: 1px solid #ccc; border-radius: 5px; color: #333; }
-		#header a:hover, #header a:active { background: #e6e6e6; border-color: #adadada; }
-		#header a:active:hover { background: #d4d4d4; border-color: #8c8c8c; }
+
 
 #footer1 {overflow: hidden;  margin: 0 auto; width: 980px;}
 
