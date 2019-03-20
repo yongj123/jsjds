@@ -1,0 +1,63 @@
+
+* { margin: 0; padding: 0; font: 14px 'Microsoft Yahei', 'Tahoma', 'Helvetica', 'SimSun', 'sans-serif'; }
+
+body { overflow-x: hidden; overflow-y: scroll; text-align: center; background: #fff; }
+
+button, input, textarea { outline: none; }
+	input::-ms-clear { display: none; }
+	textarea { resize: none; }
+
+button { padding: 3px 10px; cursor: pointer; }
+input.txt, textarea { padding: 3px 5px; font-size: 14px; border: 1px solid #ddd; border-left-color: #aaa; border-top-color: #aaa; }
+input.txt { line-height: 22px; height: 22px; }
+
+ul { }
+	ul li { list-style: none; }
+
+a { text-decoration: none; color: #069; }
+	a:hover { text-decoration: underline; }
+
+
+#login { overflow: hidden; margin: 150px auto; padding: 30px; width: 500px; background: #f0f0f0; }
+	#login div { float: left; text-align: left; width: 200px; }
+	#login div.button { width: 100px; }
+		#login div h1 { margin-bottom: 5px; line-height: 25px; height: 25px; color: #666; }
+		#login div h2 { }
+			#login div h2 input { width: 150px; }
+			#login div h2 button { text-align: center; line-height: 25px; width: 100px; height: 30px; color: #fff; background: #777; border: 0; border-radius: 5px; }
+				#login div h2 button:hover { background: #555; }
+
+
+#menu { float: left; margin: 50px; width: 200px; border: 2px solid #ccc; border-bottom-width: 1px; }
+	#menu li { text-align: left; border-bottom: 1px solid #ccc; }
+		#menu li a { display: block; padding: 5px 8px; text-decoration: none; color: #000; background: #f5f5f5; }
+		#menu li.active, #menu li:hover { }
+			#menu li.active a, #menu li:hover a { background: #fff; }
+
+#main { float: left; overflow: hidden; margin: 50px 50px 50px 0; text-align: left; width: 800px; }
+
+
+.list { overflow: hidden; }
+	.list ul { overflow: hidden; width: 810px; }
+		.list ul.title { border-bottom: 1px solid #ccc; }
+			.list ul.title li { font-weight: bold; }
+		.list ul.add { }
+			.list ul.add li a { color: #f00; }
+		.list ul li { float: left; line-height: 30px; height: 30px; }
+			.list ul li.c5 { width: 50px; }
+			.list ul li.c10 { width: 100px; }
+			.list ul li.c20 { width: 200px; }
+			.list ul li.c30 { width: 300px; }
+			.list ul li.c40 { width: 400px; }
+			.list ul li.c50 { width: 500px; }
+			.list ul li.c60 { width: 600px; }
+			.list ul li input.txt { padding: 0 2px; font-size: 10px; line-height: 18px; height: 18px; }
+
+.form { }
+	.form h1 { margin-bottom: 8px; font-weight: bold; }
+	.form h2 { margin-bottom: 8px; }
+		.form h2 input { width: 500px; }
+		.form h2 textarea { width: 500px; height: 150px; }
+		.form h2 select[multiple] { width: 500px; height: 300px; }
+	.form h3 { margin-bottom: 20px; color: #999; }
+	.form h6 { margin-top: 50px; }
